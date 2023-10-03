@@ -1,0 +1,26 @@
+{
+    "name": "simba/statistiques",
+    "description": "Librairie statistiques",
+    "type": "librairy",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Simba\\Statistiques\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "samibi6",
+            "email": "sambiname@yahoo.fr"
+        }
+    ],
+    "scripts": { "test": "vendor/bin/pest" },
+    "require-dev": {
+        "pestphp/pest": "^2.20"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
